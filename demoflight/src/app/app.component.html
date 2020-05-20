@@ -1,0 +1,13 @@
+<nav ngxNavbarDynamicExpand class="navbar-light bg-light">
+    <button class="navbar-toggler" type="button" (click)="collapse.toggle()">
+        ...
+    </button>
+    <ngx-navbar-collapse #collapse="ngxNavbarCollapse">
+        <h1>  
+            Angular Flight Demo  
+            </h1>  
+            <button style="align-self: center; margin-left: 50%;" class = "btn btn-primary" routerLink="/">Home</button>  
+            <button style="margin-left: 50px;" class = "btn btn-primary" routerLink="/booking">Booking Status</button>
+    </ngx-navbar-collapse>
+</nav>  
+<router-outlet></router-outlet>

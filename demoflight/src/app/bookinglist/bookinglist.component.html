@@ -1,0 +1,52 @@
+<div style="margin-top: 3%;" class="container">
+    <div style="justify-content: center;" class="row">
+        <div class="card">
+            <div class="container">
+                <form #bookingForm = "ngForm" (ngSubmit) = "onSubmit(bookingForm.value)">
+                    <div class="form-row">
+                        <label class="radio-inline">
+                            <input type="radio" name="optradio" checked>One Trip
+                          </label>
+                          <label class="radio-inline">
+                            <input type="radio" name="optradio">Round Trip
+                        </label>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col-md-4">
+                          <label for="inputSource4">Source</label>
+                          <input type="text" class="form-control" id="inputSource4" ngModel name="source" >
+                        </div>
+                        <div class="form-group col-md-4">
+                          <label for="inputDestination4">Destination</label>
+                          <input type="text" class="form-control" id="inputDestination4" ngModel name="destination">
+                        </div>
+                        <div class="form-group col-md-4">           
+                            <label for="datetimepicker1">Date</label>                 
+                            <div class='input-group date' id='datetimepicker1'>
+                                <input type='text' class="form-control" ngModel name="date"/>
+                                <span class="input-group-addon">
+                                    <span class="glyphicon glyphicon-calendar"></span>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div style="justify-content: center;" class="form-row">
+                        <div class="form-group">
+                            <button type="submit" class="btn btn-success">Book</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<div *ngIf = "!isShow">
+    <h1 style="margin-top: 3%;text-align: center;">No Booking Yet.</h1>
+</div>
+<div *ngIf = "isShow">
+    <h1>Booking Details:</h1>
+    <h3>Source:</h3>{{rows.source}}
+    <h3>Destination:</h3>{{rows.destination}}
+    <h3>Status:</h3>Booked
+    <h3>Date:</h3>{{rows.date}}
+</div>

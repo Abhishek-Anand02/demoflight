@@ -1,0 +1,84 @@
+{
+    "flights": [
+        {
+            "id": 1,
+            "name": "Maggio - Gibson",
+            "flight_no": 854706,
+            "price": "229.00",
+            "start_time": "2015-03-23T23:45:21.808Z",
+            "gate": 5
+        },
+        {
+            "id": 2,
+            "name": "Watsica - Barton",
+            "flight_no": 963912,
+            "price": "143.00",
+            "start_time": "2015-03-10T01:55:30.528Z",
+            "gate": 4
+        },
+        {
+            "id": 3,
+            "name": "Pollich - Becker",
+            "flight_no": 565356,
+            "price": "277.00",
+            "start_time": "2015-10-13T09:15:26.773Z",
+            "gate": 7
+        },
+        {
+            "id": 4,
+            "name": "Hagenes Group",
+            "flight_no": 394434,
+            "price": "210.00",
+            "start_time": "2015-01-25T07:20:55.005Z",
+            "gate": 1
+        },
+        {
+            "id": 5,
+            "name": "Collins Inc",
+            "flight_no": 370968,
+            "price": "289.00",
+            "start_time": "2015-05-25T09:54:23.896Z",
+            "gate": 4
+        },
+        {
+            "id": 6,
+            "name": "Morar, Hettinger and McCullough",
+            "flight_no": 328836,
+            "price": "226.00",
+            "start_time": "2015-06-29T12:41:16.225Z",
+            "gate": 7
+        },
+        {
+            "id": 7,
+            "name": "Jacobs, Lakin and Gaylord",
+            "flight_no": 668550,
+            "price": "602.00",
+            "start_time": "2015-02-01T04:13:07.345Z",
+            "gate": 6
+        },
+        {
+            "id": 8,
+            "name": "O'Keefe - Cartwright",
+            "flight_no": 292194,
+            "price": "196.00",
+            "start_time": "2015-03-28T12:47:18.717Z",
+            "gate": 1
+        },
+        {
+            "id": 9,
+            "name": "McLaughlin - Roberts",
+            "flight_no": 146166,
+            "price": "618.00",
+            "start_time": "2015-06-22T11:11:04.443Z",
+            "gate": 2
+        },
+        {
+            "id": 10,
+            "name": "Metz - Hammes",
+            "flight_no": 292554,
+            "price": "617.00",
+            "start_time": "2015-06-13T02:59:58.581Z",
+            "gate": 4
+        }
+    ]
+}
